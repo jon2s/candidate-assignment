@@ -1,0 +1,42 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "start": "nodemon",
+    "build": "webpack && layer0 build",
+    "prod": "layer0 run --production",
+    "deploy": "layer0 deploy --team=tevfik-serte",
+    "layer0": "layer0",
+    "layer0:update": "npm i --save-dev @layer0/cli@latest @layer0/core@latest @layer0/prefetch@latest",
+    "layer0:link": "yalc add @layer0/core @layer0/prefetch @layer0/cli"
+  },
+  "name": "candidate-assignment",
+  "devDependencies": {
+    "@layer0/cli": "^3.2.0",
+    "@layer0/core": "^3.2.0",
+    "@layer0/devtools": "^3.2.0",
+    "@layer0/prefetch": "^3.2.0",
+    "@types/node": "^14.0.6",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "serverless": "^1.71.3",
+    "serverless-dotenv-plugin": "^2.3.2",
+    "serverless-offline": "^6.3.0",
+    "ts-loader": "^7.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "exec": "npm run build && layer0 run",
+    "ext": "js,ts"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
