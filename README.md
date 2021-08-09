@@ -22,7 +22,7 @@ I think that the Devtools is incredible, but I found myself wanting to dig in de
 
 For example:
 
-*What items were misses from the current page vs. prefetched items. 
-*What items were misses and will continue to be misses as they are not set to ever cache.
+* What items were misses from the current page vs. prefetched items. 
+* What items were misses and will continue to be misses as they are not set to ever cache.
 
 Overall this was a fun and interesting learning experience.  
