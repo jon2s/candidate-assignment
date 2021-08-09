@@ -1,5 +1,5 @@
 import install from '@layer0/prefetch/window/install'
-//import installDevtools from '@layer0/devtools/install'
+import installDevtools from '@layer0/devtools/install'
 
 async function lateLoadContent() {
   const url = '/content' + window.location.pathname
@@ -23,7 +23,7 @@ async function lateLoadContent() {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  //installDevtools()
+  installDevtools()
 
   // @ts-ignore
   install({
