@@ -30,5 +30,7 @@ Overall this was a fun and interesting learning experience.
 ### Testing
 
 My layer0.link site: <https://jon-tewes-candidate-assignment-default.layer0.link>
+
 My layer0.link page for testing at WebPageTest.org: <https://jon-tewes-candidate-assignment-default.layer0.link/c/chairs/all-chairs>
+
 Testing results: <https://docs.google.com/presentation/d/1ipEbmBelHqbSFGkppp0vuwu_G479Mx_59Ngq-gyG3tU/edit?usp=sharing>
